@@ -21,12 +21,3 @@ assay(rse_ERP110263, "counts") <- compute_read_counts(rse_ERP110263)
 
 # Salvar los datos crudos
 save(rse_ERP110263, file = 'raw-data/rse_ERP110263.RData')
-
-# Visualización de las características de nuestras muestras.
-rse_ERP110263 <- expand_sra_attributes(rse_ERP110263)
-
-colData(rse_ERP110263)[
-  ,
-  grepl("^sra_attribute", colnames(colData(rse_ERP110263)))
-]
-
