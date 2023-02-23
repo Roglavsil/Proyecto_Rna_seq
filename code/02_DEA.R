@@ -1,5 +1,8 @@
+# Cargar librería.
+library("recount3")
 # Cargar datos a analizar.
 load('raw-data/rse_ERP110263.RData')
+
 
 # Visualización de las características de nuestras muestras.
 rse_ERP110263 <- expand_sra_attributes(rse_ERP110263)
@@ -28,5 +31,9 @@ hist(rse_ERP110263$assigned_gene_prop)
 
 # Podemos observar que la calidad de las muestras no es buena todas están por debajo de 0.3
 table(rse_ERP110263$assigned_gene_prop < 0.3)
+
+# Guardamos la información procesada.
+save(rse_ERP110263, file = 'processed-data/rse_ERP110263.RData')
+
 
 
