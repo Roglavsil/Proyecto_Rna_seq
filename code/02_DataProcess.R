@@ -20,7 +20,7 @@ rse_ERP110263$sra_attribute.Group <- factor(tolower(rse_ERP110263$sra_attribute.
 # Variables de interés.
 summary(as.data.frame(colData(rse_ERP110263)[
   ,
-  grepl("^sra_attribute.[Age|tissue_type|Group]", colnames(colData(rse_ERP110263)))
+  grepl("^sra_attribute.[tissue_type|Group]", colnames(colData(rse_ERP110263)))
 ]))
 
 
@@ -34,6 +34,7 @@ table(rse_ERP110263$assigned_gene_prop < 0.3)
 
 # Guardamos la información procesada.
 save(rse_ERP110263, file = 'processed-data/rse_ERP110263.RData')
+
 
 
 
