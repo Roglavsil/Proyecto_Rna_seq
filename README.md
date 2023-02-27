@@ -7,7 +7,8 @@ hecho por Rogelio Lael Ávila Silva.
 
 A lo largo de los años el uso de probióticos para restaurar la microbiota intestinal después de un tratamiento con antibióticos se ha vuelto una práctica común a pesar de la falta de información que compruebe su efectividad e incluso podría afectar la recomposición del microbioma intestinal. Es por esto que surge la necesidad de evaluar el efecto del uso de probióticos para restaurar el microbioma intestinal después del uso de antibióticos y compararlos con otros tratamientos que han probado ser más efectivos para la restauración de la microbiota intestinal como el transplante autologo de micrbiota fecal. En este proyecto se analiza datos de RNA-seq obtenidos de diferentes partes del tracto digestivo con diferentes tratamientos y diferentes condiciones.
 
-![[Pasted image 20230225004017.png]]
+![image](https://user-images.githubusercontent.com/100377652/221342988-e205edf0-61c6-4534-bb5a-3e83ced25634.png)
+
 Obtenido de: https://doi.org/10.1016/j.cell.2018.08.047
 ## Contenido
 
